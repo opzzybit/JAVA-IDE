@@ -186,12 +186,14 @@ public class TelevisionTest {
         }
     }
 
+    @Test
+    public void testThatICanOffTheTelevision(){
+        Telvesion television = new Telvesion("Samsung","on",20,"Standard",20,4,10);
+        assertEquals("on",television.getPowerBotton());
 
-
-
-
-
-
-
+        television.turnOffTelevision("off");
+        assertEquals("off",television.getPowerBotton());
+    }
 
 }
+

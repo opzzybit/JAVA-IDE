@@ -30,6 +30,10 @@ public class Telvesion {
         this.powerBotton = powerBotton;
     }
 
+    public void turnOffTelevision(String powerBotton){
+        this.powerBotton = powerBotton;
+    }
+
     public void incereseVolume(int volumeBotton){
         int storedVolume = volume + volumeBotton;
 
