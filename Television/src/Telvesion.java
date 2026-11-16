@@ -52,6 +52,8 @@ public class Telvesion {
         else volume -= volumeBotton;
     }
 
+
+
     public void changePictureMode(String pictureMode) {
         String[] availablePictureMode = {
                 "Standard",
@@ -104,11 +106,11 @@ public class Telvesion {
     }
 
     public void decereseContrast(int contrastBotton){
-        int storedContrast = brightness - contrastBotton;
+        int storedContrast = contrast - contrastBotton;
 
         if (storedContrast < 0) throw new IllegalArgumentException("Contrast must be between 0 and 100");
 
-        else brightness -= contrastBotton;
+        else contrast -= contrastBotton;
     }
 
 

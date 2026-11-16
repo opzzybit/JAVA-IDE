@@ -173,7 +173,7 @@ public class TelevisionTest {
     }
 
     @Test
-    public void testThatICandecreaseTheContrast_Too(){
+    public void testThatICandecreaseTheContrast_TooTwentyEight(){
         Telvesion television = new Telvesion("Samsung","on",40,"Standard",35,4,50);
         assertEquals(50,television.getContrast());
 
