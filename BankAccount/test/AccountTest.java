@@ -1,6 +1,6 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class AccountTest {
 
@@ -108,7 +108,7 @@ public class AccountTest {
         assertEquals(2008, pinCheck.getTransactionPin());
 
         pinCheck.changeTransactionPin(3478);
-        assertEquals(2008, pinCheck.getTransactionPin());
+        assertEquals(3478, pinCheck.getTransactionPin());
 
     }
 
